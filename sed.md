@@ -1,6 +1,6 @@
 # How to use sed
 
-String substitution can be achieved using the UNIX tool, Stream EDitor (sed), is fast and scalable for this purpose.
+String substitution can be achieved using the UNIX tool, Stream EDitor (sed), which is fast and scalable for this purpose.
 
 ## Shell 
 
