@@ -26,3 +26,14 @@ This command directly edits whatever file you specify in `input.txt` field. If y
 
 Verify changes made using `cat` against the filename, e.g. `cat intput.txt`.
 
+### Example in macOS Terminal
+
+```
+david@macbook Downloads % touch demo.txt
+david@macbook Downloads % echo "I will not eat my vegetables" >> demo.txt
+david@macbook Downloads % cat demo.txt
+I will not eat my vegetables
+david@macbook Downloads % sed -i '' 's/not //g' demo.txt
+david@macbook Downloads % cat demo.txt
+I will eat my vegetables
+```
